@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja do Seu Zé</title>
+    <title>G&M Store</title>
 
-    <link rel="stylesheet" href="teste.css">
+    <link rel="stylesheet" href="index.css">
 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -14,15 +14,15 @@
 
 <body>
 
-    <!-- HEADER -->
 
     <header class="header">
 
         <div class="logo">
-            <img src="img/iconnn.gif" alt="">
-            <h2>Loja do <span>Seu Zé</span></h2>
+            <img src="loja/img/iconnn.gif" alt="">
+            <h2> G&M<span> Store</span></h2>
         </div>
-
+        
+       
         <nav class="menu">
 
             <a href="#inicio">Início</a>
@@ -39,10 +39,18 @@
 
         </nav>
 
-        <a href="#" class="btn-whats">
-            <i class="fa-brands fa-whatsapp"></i>
-            WhatsApp
-        </a>
+<a href="#" class="btn-whats">
+    <i class="fa-brands fa-whatsapp"></i>
+    WhatsApp
+</a>
+
+<div class="header-icons">
+
+            <a href="login.html">
+
+                <i class="fa-regular fa-user"></i>
+
+            </a>
 
         <div class="menu-mobile">
             <i class="fa-solid fa-bars"></i>
@@ -50,19 +58,16 @@
 
     </header>
 
-    <!-- HERO -->
-
     <section class="hero" id="inicio">
 
         <div class="hero-text">
 
             <span class="tag">
-                Desde 2015 atendendo nossa comunidade
+                Desde 2026 atendendo nossa comunidade
             </span>
 
             <h1>
-                Bem-vindo à
-                Loja do Seu Zé
+            G&M Store
             </h1>
 
             <p>
@@ -76,9 +81,9 @@
                     Ver Produtos
                 </a>
 
-                <a href="#" class="btn-secundario">
-                    Falar no WhatsApp
-                </a>
+              <a href="loja.html" class="btn-principal">
+                Folheto
+              </a>
 
             </div>
 
@@ -86,19 +91,17 @@
 
         <div class="hero-image">
 
-            <img src="img/cachorro bololo.jpg" alt="">
+            <img src="/img/img/fundo do fundo do eccmo.gif" alt="">
 
         </div>
 
     </section>
 
-    <!-- ESTATÍSTICAS -->
-
     <section class="stats">
 
         <div class="stat-card">
             <h2>+1000</h2>
-            <p>Clientes Atendidos</p>
+            <p>Fãs atendido </p>
         </div>
 
         <div class="stat-card">
@@ -107,8 +110,8 @@
         </div>
 
         <div class="stat-card">
-            <h2>10+</h2>
-            <p>Anos de Experiência</p>
+            <h2>1</h2>
+            <p>Ano de Experiência</p>
         </div>
 
         <div class="stat-card">
@@ -117,8 +120,6 @@
         </div>
 
     </section>
-
-    <!-- SOBRE -->
 
     <section class="sobre" id="sobre">
 
@@ -131,7 +132,7 @@
             <div class="sobre-texto">
 
                 <p>
-                    A Loja do Seu Zé nasceu com o objetivo
+                    A G&M Store nasceu com o objetivo
                     de oferecer qualidade, confiança e
                     atendimento diferenciado.
                 </p>
@@ -147,8 +148,6 @@
 
     </section>
 
-    <!-- CATEGORIAS -->
-
     <section class="categorias" id="categorias">
 
         <div class="titulo">
@@ -156,28 +155,27 @@
         </div>
 
         <div class="categorias-grid">
+ <div class="categoria-card"
+     onclick="window.location.href='mercearia.html'">
+    <i class="fa-solid fa-basket-shopping"></i>
+    <h3>Mercearia</h3>
 
-            <div class="categoria-card">
-                <i class="fa-solid fa-basket-shopping"></i>
-                <h3>Mercearia</h3>
-            </div>
+  </div>
 
-            <div class="categoria-card">
+           <div class="categoria-card"
+onclick="window.location.href='refrigerantes.html'">
                 <i class="fa-solid fa-bottle-water"></i>
                 <h3>Bebidas</h3>
             </div>
 
-            <div class="categoria-card">
+            <div class="categoria-card"
+onclick="window.location.href='casa.html'">
                 <i class="fa-solid fa-house"></i>
                 <h3>Casa</h3>
             </div>
 
-            <div class="categoria-card">
-                <i class="fa-solid fa-screwdriver-wrench"></i>
-                <h3>Ferramentas</h3>
-            </div>
-
-            <div class="categoria-card">
+   <div class="categoria-card"
+onclick="window.location.href='eletronico.html'">
                 <i class="fa-solid fa-laptop"></i>
                 <h3>Eletrônicos</h3>
             </div>
@@ -185,8 +183,6 @@
         </div>
 
     </section>
-
-    <!-- PRODUTOS -->
 
     <section class="produtos" id="produtos">
 
@@ -197,26 +193,26 @@
         <div class="produtos-grid">
 
             <div class="produto-card">
-                <img src="img/leite de moça sem fundo.png" alt="">
-                <h3>Leite Moça</h3>
+                <img src="img/Talento sem fundo.png" alt="">
+                <h3>Doces</h3>
                 <p>Produto tradicional disponível na loja.</p>
             </div>
 
             <div class="produto-card">
-                <img src="img/guarana sem fundo 1.png" alt="">
+                <img src="img/sem fundo da coca.png" alt="">
                 <h3>Guaraná</h3>
                 <p>Bebidas para toda família.</p>
             </div>
 
             <div class="produto-card">
                 <img src="img/doritos sem fundo 2.png" alt="">
-                <h3>Doritos</h3>
+                <h3>Aperitivos</h3>
                 <p>Diversos sabores disponíveis.</p>
             </div>
 
             <div class="produto-card">
-                <img src="img/monitor sem fundo 1.png" alt="">
-                <h3>Monitor</h3>
+                <img src="img/fone sem fiu sem fundo.png" alt="">
+                <h3>Eletrônicos</h3>
                 <p>Equipamentos eletrônicos.</p>
             </div>
 
@@ -253,8 +249,6 @@
 
     </section>
 
-    <!-- AVALIAÇÕES -->
-
     <section class="avaliacoes" id="avaliacoes">
 
         <div class="titulo">
@@ -285,8 +279,6 @@
 
     </section>
 
-    <!-- CONTATO -->
-
     <section class="contato" id="contato">
 
         <div class="titulo">
@@ -296,7 +288,7 @@
         <div class="contato-box">
 
             <p>
-                📍 Rua Exemplo, 123
+                📍 Rua Jacinto, 6767
             </p>
 
             <p>
@@ -312,13 +304,11 @@
 
     </section>
 
-    <!-- FOOTER -->
-
     <footer class="footer">
 
         <div>
 
-            <h3>Loja do Seu Zé</h3>
+            <h3>G&M Store</h3>
 
             <p>
                 Qualidade, confiança e atendimento.
@@ -347,7 +337,7 @@
 
     </footer>
 
-    <script src="teste.js"></script>
+    <script src="index.js"></script>
 
 </body>
 </html>
