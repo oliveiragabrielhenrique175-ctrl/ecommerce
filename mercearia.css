@@ -10,10 +10,6 @@ body{
     color:#333;
 }
 
-/* ======================
-   TOPO
-====================== */
-
 .topo{
     background:#85F900;
     padding:20px 6%;
@@ -39,21 +35,14 @@ body{
     opacity:.8;
 }
 
-/* ======================
-   BANNER
-====================== */
-
 .banner{
     background:linear-gradient(
         135deg,
         #000,
         #85F900
     );
-
     color:white;
-
     padding:70px 6%;
-
     text-align:center;
 }
 
@@ -66,32 +55,20 @@ body{
     font-size:20px;
 }
 
-/* ======================
-   PRODUTOS
-====================== */
-
 .produtos{
     padding:60px 6%;
-
     display:grid;
-
     grid-template-columns:
     repeat(auto-fit,minmax(260px,1fr));
-
     gap:25px;
 }
 
 .produto{
     background:white;
-
     border-radius:20px;
-
     padding:25px;
-
     text-align:center;
-
     transition:.3s;
-
     box-shadow:0 5px 20px rgba(0,0,0,.08);
 }
 
@@ -131,25 +108,16 @@ body{
     border:none;
 
     border-radius:10px;
-
     background:#000;
-
     color:white;
-
     cursor:pointer;
-
     font-weight:bold;
-
     transition:.3s;
 }
 
 .produto button:hover{
     background:#222;
 }
-
-/* ======================
-   RESPONSIVO
-====================== */
 
 @media(max-width:768px){
 

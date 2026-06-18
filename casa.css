@@ -10,8 +10,6 @@ body{
     color:#333;
 }
 
-/* TOPO */
-
 .topo{
     background:#ff8c00;
     padding:20px 6%;
@@ -32,8 +30,6 @@ body{
     font-weight:bold;
     font-size:18px;
 }
-
-/* BANNER */
 
 .banner{
     background:linear-gradient(

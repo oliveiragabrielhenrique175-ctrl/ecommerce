@@ -69,23 +69,16 @@ body{
 
 .produto{
     background:#1e293b;
-
     border:1px solid #334155;
-
     border-radius:20px;
-
     padding:25px;
-
     text-align:center;
-
     transition:.3s;
 }
 
 .produto:hover{
     transform:translateY(-8px);
-
     border-color:#8b5cf6;
-
     box-shadow:0 0 20px rgba(139,92,246,.4);
 }
 
